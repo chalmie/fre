@@ -1,0 +1,165 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: nanum brush script,'Roboto', sans-serif;
+	font-weight: 100;
+  background-color: #808000
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+
+
+/* Header */
+.header {
+  height: 800px;
+  text-align: center;
+  background-image:url('http://thumbs.dreamstime.com/z/%2525D0%2525B5-%2525D0%2525B0-34514753.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#6495ED;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px;
+	margin-top: 0;
+	margin-bottom: 80px;
+  text-shadow: black;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+  font-size: 40px;
+	letter-spacing: 8px;
+	margin-top: 50px;
+}
+
+
+
+/* Nav */
+.nav ul {
+  background-color:#696969;
+	list-style: none;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+  font-size: 35px;
+}
+
+.nav li {
+  color:white;
+  display:inline;
+  margin:10px 10px 10px 10px;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+
+/* Main */
+.main .container {
+	margin: 100px auto;
+}
+
+.main img {
+  float:left;
+  height:250px;
+  width:200px;
+  margin-right:40px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image:url('http://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-Food-seamless-pattern-in-black-and-white.jpg');
+	height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+	text-align: right;
+  margin:5px 5px 5px 5px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+.jumbotron h1 {
+  color:white;
+  margin-bottom: -25px;
+}
+
+.jumbotron h2 {
+  color:white;
+  margin-bottom: -25px;
+}
+
+.jumbotron p {
+  color:white;
+  margin-bottom: -10px;
+}
+
+.jumbotron a {
+  color:white;
+  font-weight: 500;
+  padding:5px 5px 5px 5px;
+  text-decoration:none;
+  border:2px solid white;
+}
+
+/* Footer */
+.footer {
+	font-size: 14px;
+  background-color:black;
+  color:white;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+span {
+  font-style: italic;
+  font-weight: bold;
+}
+.form-group {
+  font-size: 45px;
+	margin-right: 40px;
+}
+  .container1 {
+    background-color: #7FFFD4;
+    text-align: right;
+
+  }
+
+	.form-control {
+		line-height: 50px;
+		width: 300px;
+		margin-bottom: 20px;
+	}
